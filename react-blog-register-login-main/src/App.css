@@ -1,0 +1,74 @@
+.grow1 {
+  flex: 1
+}
+
+
+.smallImage {
+  height: 50px;
+  opacity: 0.3;
+}
+
+.selected {
+  opacity: 1;
+}
+
+.imgContainer {
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.progressBar {
+  height: 10px;
+  background-color: #b1b1b1;
+}
+
+.progressBar div {
+  height: 100%;
+  background-color: mediumspringgreen;
+}
+
+img {
+  height: 100px;
+}
+
+.postCard {
+  width: 600px;
+  overflow: auto;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  color: white;
+}
+
+.page-link {
+  border: 1px solid #dee2e6;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+.singlePostPage .postImage {
+  width: 300px;
+  height: 500px;
+  float: left;
+  background-size: cover;
+}
+.creatInput{
+  width: 70%;
+  margin: 4px;
+}
